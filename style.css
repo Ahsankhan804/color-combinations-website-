@@ -494,7 +494,7 @@ body {
   #overlay > h1#gallery{
     font-size: 15vw;
     font-weight: 900;
-    bottom: 15%;
+    bottom: 10%;
   }
   #overlay > h1#pf{
     font-size: 15vw;
@@ -510,6 +510,7 @@ body {
   }
   #sec-btm p{
     font-size: 6vw;
+    font-weight: 700;
     width: 100%;
   }
 }

@@ -105,7 +105,6 @@ function timelinetwo(){
             trigger:"#second",
             start: "top top",
             scrub: 5,
-            markers: true,
             pin: true,
             end: "bottom -250%"
         }
@@ -132,7 +131,7 @@ function timelinetwo(){
         ease:Power1
     },"a")
     .to("#sec-top h1",{
-       left:"-250%",
+       left:"-200%",
        duration:15,
         ease: Power1,
     },"a")
@@ -163,7 +162,6 @@ function timelinetwo(){
     .to("#boxs .box",{
         bottom:"0",
         duration:2,
-        delay:"-2",
         stagger:.3,
         ease:Power1
     })
